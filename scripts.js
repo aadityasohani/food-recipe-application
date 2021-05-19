@@ -40,6 +40,7 @@ function generateHTML(data) {
         $("#ig-list").show();
         $(".section").hide();
         $(".upper").hide();
+        $(window).scrollTop(0);
       },
     });
   });
