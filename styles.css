@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-display {
+  color: floralwhite;
+  text-align: center;
+  font-size: 3rem;
+  font-family: monospace;
+  margin: 0 0 1rem 0;
+}
+
+.input-box {
+  margin: 0 auto 1rem auto;
+  width: 40%;
+}
+
+.receipe-input {
+  padding: 1rem;
+  width: 100%;
+}
+
+.images-grid {
+  width: 80%;
+  display: grid;
+  grid-template: auto/repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+.food-img {
+  padding: 1rem;
+  background: rgba(53, 48, 48, 0.486);
+  border-radius: 5%;
+  display: inline-flex;
+  color: floralwhite;
+  display: inline-block;
+  align-items: flex-end;
+}
+img {
+  text-align: center;
+  width: 100%;
+  object-fit: cover;
+}
+
+.food-img .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-img .info .btn {
+  padding: 0.5rem;
+  background-color: rgba(128, 128, 128, 0.431);
+}
+
+.food-img .info .btn:hover {
+  color: yellow;
+  cursor: help;
+}
+
+.food-img:hover {
+  transition: transform 0.2s;
+  transform: scale(1.02);
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ingredients-list {
+  background-color: whitesmoke;
+  width: 40%;
+  height: 40%;
+  padding: 1%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2%;
+  display: none;
+}
+
+.ingredients-list .dish-name {
+  width: 100%;
+  display: inline-block;
+  font-size: xx-large;
+  margin-bottom: 2%;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: black solid 1px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.btn-link {
+  background-color: rgba(202, 206, 12, 0.609);
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5rem;
+  padding: 0.5%;
+}
+
+.btn-link > a {
+  text-decoration: none;
+}

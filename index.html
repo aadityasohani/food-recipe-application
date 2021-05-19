@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Food receipes</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="upper">
+      <div class="title-display">Recipe Application</div>
+      <div class="input-box">
+        <input
+          type="text"
+          id="search-box"
+          placeholder="Search your food receipe here"
+          class="receipe-input"
+        />
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="images-grid" id="receipe-container"></div>
+    </div>
+
+    <div class="ingredients-list" id="ig-list">
+      <div class="dish-name">sample</div>
+      <div class="ingredients" id="ing-list">
+        <div class="ing-title">
+          <h1>Ingredients Required:</h1>
+        </div>
+        <ul id="ing-list"></ul>
+      </div>
+      <div class="btn-link"><a href="#">full receipe here</a></div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
