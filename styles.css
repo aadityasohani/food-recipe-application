@@ -15,6 +15,8 @@ body {
 .input-box {
   margin: 0 auto 1rem auto;
   width: 40%;
+  min-width: 15rem;
+  text-align: center;
 }
 
 .receipe-input {
@@ -73,13 +75,14 @@ img {
 .ingredients-list {
   background-color: whitesmoke;
   width: 40%;
-  height: 40%;
+  min-width: 300px;
   padding: 1%;
   margin: auto;
   align-items: center;
   justify-content: center;
   border-radius: 2%;
   display: none;
+  overflow-x: hidden;
 }
 
 .ingredients-list .dish-name {
